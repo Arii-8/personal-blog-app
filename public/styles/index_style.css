@@ -1,0 +1,199 @@
+.dummy {
+    padding-top: 70px;
+    font-size: 4em;
+    /* color: #0DCAF0; */
+    /* color: #17202A; */
+    color: #f2f2f2;
+}
+
+/* Header Navbar */
+.top-bar {
+    padding: 15px;
+    width: 100%;
+    background-color: #17202A;
+    height: 70px;
+}
+
+.container-fluid {
+    /* background-color: aliceblue; */
+    background-image: url('../img/aaron-burden-AXqMy8MSSdk-unsplash.png');
+    background-size: cover;
+    height: 90vh;
+    border-bottom: 2px solid #17202A;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.4), 3px 3px 6px rgba(0, 0, 0, 0.4), 0 -3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.get-started {
+    margin-left: 40%;
+    text-decoration: none;
+    font-size: 1.7em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 1px solid #0DCAF0;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #0DCAF0;
+}
+
+.get-started:hover {
+    color: white;
+    background-color: #0DCAF0;
+    transition: 0.3s;
+}
+
+/* Sesi content */
+.content {
+    margin-top: 100px;
+    max-width: 1460px;
+    padding: 20px;
+    /* text-align: justify; */
+    /* background-color: #3930D8; */
+    background-color: #17202A;
+    /* background-color: black; */
+    color: white;
+    margin-left: 80px;
+    /* margin-right: 50px; */
+    margin-bottom: 50px;
+}
+
+.footer {
+    margin-top: 6%;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    height: 80px;
+    padding-top: 17px;
+}
+
+.footer-2 {
+    color: white;
+    background-color: #000000;
+    height: 60px;
+    padding-top: 17px;
+}
+
+
+/* Sesi dual */
+.top-bar li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.top-bar li a {
+    text-decoration: none;
+}
+
+.content p {
+    margin-left: 70px;
+}
+
+.content h2 {
+    margin-left: 260px;
+}
+
+.content img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px; 
+    height: 750px; 
+    /* margin-left: 40px;  */
+    border-radius: 10px;
+}
+
+.content a {
+    margin-left: 70px;
+    /* background-color: #3930D8; */
+    background-color: #17202A;
+    /* background-color: black; */
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Sesi triple */
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 768px){
+    .content {
+        max-width: 1460px;
+        padding: 20px;
+        /* text-align: justify; */
+        /* background-color: black; */
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .content p {
+        margin-left: 10px;
+    }
+
+    .content h2 {
+        margin-left: 130px;
+    }
+    
+    .content button {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-fluid {
+        background-size: cover;
+        height: 45vh;
+    }
+
+    .dummy {
+        padding-top: 50px;
+        font-size: 2.1em;
+    }
+
+    .get-started {
+        margin-left: 17%;
+        text-decoration: none;
+        font-size: 1.7em;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border: 1px solid #0DCAF0;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #0DCAF0;
+    }
+    
+    .get-started:hover {
+        color: white;
+        background-color: #0DCAF0;
+        transition: 0.3s;
+    }
+
+    .content h2 {
+        margin-left: 160px;
+    }
+
+    .content img {
+        margin-top: 40px;
+        width: 320px; 
+        height: 370px; 
+        margin-left: 22px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+    }
+    
+}
